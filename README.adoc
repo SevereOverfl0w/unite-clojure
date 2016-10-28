@@ -1,0 +1,25 @@
+= unite-clojure
+
+A bunch of unite things
+
+== Kinds
+New kinds
+
+* clojurevar
++
+Actions:
++
+** Go to definition
+** Show Doc
+** Show source
+* clojurens
++
+Actions:
++
+** Go to file
+** Show doc
+
+== Sources
+
+find_namespaces_on_classpath:: Find namespaces using clojure.tools.namespace
+ns-publics:: Use `(ns-publics)` to find the vars in a namesapce
